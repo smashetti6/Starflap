@@ -1,0 +1,58 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "Starflap",
+  "resources": [
+    {"id":{"name":"obj_spaceship","path":"objects/obj_spaceship/obj_spaceship.yy",},"order":0,},
+    {"id":{"name":"obj_energycore","path":"objects/obj_energycore/obj_energycore.yy",},"order":5,},
+    {"id":{"name":"spr_spaceship","path":"sprites/spr_spaceship/spr_spaceship.yy",},"order":0,},
+    {"id":{"name":"spr_energycore","path":"sprites/spr_energycore/spr_energycore.yy",},"order":5,},
+    {"id":{"name":"spr_asteroids","path":"sprites/spr_asteroids/spr_asteroids.yy",},"order":1,},
+    {"id":{"name":"obj_missile","path":"objects/obj_missile/obj_missile.yy",},"order":4,},
+    {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":4,},
+    {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":2,},
+    {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":3,},
+    {"id":{"name":"obj_alienship","path":"objects/obj_alienship/obj_alienship.yy",},"order":1,},
+    {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":3,},
+    {"id":{"name":"spr_alienshp","path":"sprites/spr_alienshp/spr_alienshp.yy",},"order":2,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
+  ],
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.0.3.85",
+  },
+}
