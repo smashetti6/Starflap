@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_energycore",
+  "name": "obj_player",
   "spriteId": {
-    "name": "spr_energycore",
-    "path": "sprites/spr_energycore/spr_energycore.yy",
+    "name": "spr_spaceship",
+    "path": "sprites/spr_spaceship/spr_spaceship.yy",
   },
   "solid": false,
   "visible": true,
