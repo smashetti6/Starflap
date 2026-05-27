@@ -18,7 +18,8 @@ laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
 
 // HEALTH VARIABLE
-lives = 3;					// the amount of lives for the player
+max_hp = 100; // amount of health the player starts with
+hp = max_hp;
 
 // STATE VARAIBLES
 on_ground = false;			// true when on platform/ground
