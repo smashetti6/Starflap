@@ -1,8 +1,15 @@
 //  INPUT 
 var flap_pressed = keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left);
 
+// Start movement only when spacebar or left mouse button is clicked
+if (flap_pressed) {
+    started = true;
+}
+
 // Gravity always applies
-move_y += gravity_force;
+if (started) {
+    move_y += gravity_force;
+}
 
 // Limit fall speed
 if (move_y > max_fall_speed) {
@@ -10,7 +17,7 @@ if (move_y > max_fall_speed) {
 }
 
 // Flap (jump) — always allowed, even in air
-if (flap_pressed) {
+if (started && flap_pressed) {
     move_y = jump_speed;  
 }
 
@@ -18,7 +25,9 @@ if (flap_pressed) {
 y += move_y;
 
 // Allow the spaceship to move right
-x += move_speed;
+if (started) {
+    x += move_speed;
+}
 
 // OUTSIDE ROOM - what happens if player leaved the room
 if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -200) {
@@ -38,6 +47,3 @@ if (place_meeting(x, y, obj_ground)) {
 else {
     on_ground = false;
 }
-
-// Start movement only when spacebar or left mouse button is clicked
-if (started) x += move_speed;
