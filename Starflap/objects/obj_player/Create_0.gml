@@ -44,14 +44,16 @@ fire_timer = 0;				// the time it takes for the gun to shoot
 // AMMO VARIABLES
 laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
+current_gun = 1;			// 1 = laser, 2 = missile
 
-// HEALTH VARIABLE
+
+// HEALTH VARIABLES
 max_hp = 100; // amount of health the player starts with
 hp = max_hp;
 
 // STATE VARAIBLES
 on_ground = false;			// true when on platform/ground
-is_dead = false;			// tracks if the player lost all its lives or not
+is_dead = false;			// if the player lost all its lives or not
 
 // NICKNAMES
 ground_object = obj_ground;
