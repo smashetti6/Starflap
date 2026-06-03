@@ -3,7 +3,9 @@
   "resourceVersion": "1.6",
   "name": "Starflap",
   "resources": [
+    {"id":{"name":"spr_spacebar","path":"sprites/spr_spacebar/spr_spacebar.yy",},"order":8,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_f2key","path":"sprites/spr_f2key/spr_f2key.yy",},"order":10,},
     {"id":{"name":"obj_energycore","path":"objects/obj_energycore/obj_energycore.yy",},"order":5,},
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},"order":1,},
     {"id":{"name":"spr_spaceship","path":"sprites/spr_spaceship/spr_spaceship.yy",},"order":0,},
@@ -13,6 +15,7 @@
     {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":4,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":6,},
     {"id":{"name":"sd_noammo","path":"sounds/sd_noammo/sd_noammo.yy",},"order":0,},
+    {"id":{"name":"spr_f1key","path":"sprites/spr_f1key/spr_f1key.yy",},"order":9,},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":2,},
     {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":3,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":6,},

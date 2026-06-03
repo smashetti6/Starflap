@@ -54,7 +54,8 @@ if (keyboard_check_pressed(vk_f1)) {
         instance_create_layer(x + 20, y, "Instance", obj_laser);
         laser_ammo -= 1;
     } else {
-		audio_play_sound(sd_noammo)
+        audio_play_sound(sd_noammo, 1, false);
+    }
 }
 
 // SHOOTING MISSILE (uses missile ammo)
@@ -63,6 +64,6 @@ if (keyboard_check_pressed(vk_f2)) {
         instance_create_layer(x + 20, y, "Instance", obj_missile);
         missile_ammo -= 1;
     } else {
-		audio_play_sound(sd_noammo)
+        audio_play_sound(sd_noammo, 1, false);
+    }
 }
-
