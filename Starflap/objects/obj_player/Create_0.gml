@@ -49,7 +49,8 @@ current_gun = 1;			// 1 = laser, 2 = missile
 
 // HEALTH VARIABLES
 max_hp = 100; // amount of health the player starts with
-hp = max_hp;
+hp =100;
+damage_cooldown = 0;
 
 // STATE VARAIBLES
 on_ground = false;			// true when on platform/ground

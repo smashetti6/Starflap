@@ -67,3 +67,9 @@ if (keyboard_check_pressed(vk_f2)) {
         audio_play_sound(sd_noammo, 1, false);
     }
 }
+
+// damage cooldown
+if (damage_cooldown > 0) {
+    damage_cooldown -= 1;
+}
+
