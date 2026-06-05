@@ -11,6 +11,7 @@
     {"id":{"name":"spr_spaceship","path":"sprites/spr_spaceship/spr_spaceship.yy",},"order":0,},
     {"id":{"name":"spr_energycore","path":"sprites/spr_energycore/spr_energycore.yy",},"order":5,},
     {"id":{"name":"spr_asteroids","path":"sprites/spr_asteroids/spr_asteroids.yy",},"order":1,},
+    {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":11,},
     {"id":{"name":"obj_missile","path":"objects/obj_missile/obj_missile.yy",},"order":4,},
     {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":4,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":6,},

@@ -18,6 +18,7 @@ laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
 laser_max = 20;
 missile_max = 10
+
 // HEALTH VARIABLE
 max_hp = 100; // amount of health the player starts with
 hp = max_hp;
@@ -47,7 +48,6 @@ laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
 current_gun = 1;			// 1 = laser, 2 = missile
 
-
 // HEALTH VARIABLES
 max_hp = 100; // amount of health the player starts with
 hp =100;
@@ -59,7 +59,6 @@ is_dead = false;			// if the player lost all its lives or not
 
 // NICKNAMES
 ground_object = obj_ground;
-
 
 // GAME START
 started = false;			// Player doesnt move until spacebar or left mouse button is clicked
