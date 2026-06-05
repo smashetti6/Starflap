@@ -73,3 +73,9 @@ if (damage_cooldown > 0) {
     damage_cooldown -= 1;
 }
 
+
+// Take to win room 
+if (place_meeting(x, y, obj_nextroom)) {
+    room_goto(Win);
+}
+
