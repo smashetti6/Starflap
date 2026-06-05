@@ -7,7 +7,7 @@ var bar_y2 = 40;
 draw_set_color(c_black);
 draw_rectangle(bar_x1 - 2, bar_y1 - 2, bar_x2 + 2, bar_y2 + 2, false);
 
-draw_set_color(c_red);
+draw_set_color(c_green);
 draw_rectangle(bar_x1, bar_y1, bar_x1 + (hp / max_hp) * (bar_x2 - bar_x1), bar_y2, false);
 
 // Showes the ammo for both guns

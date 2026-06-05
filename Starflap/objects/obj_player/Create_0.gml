@@ -16,7 +16,8 @@ fire_timer = 0;				// the time it takes for the gun to shoot
 // AMMO VARIABLES
 laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
-
+laser_max = 20;
+missile_max = 10
 // HEALTH VARIABLE
 max_hp = 100; // amount of health the player starts with
 hp = max_hp;
