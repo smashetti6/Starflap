@@ -74,11 +74,6 @@ if (damage_cooldown > 0) {
 }
 
 
-// Take to next room
-if (place_meeting(x, y, obj_nextroom)) {
-    room_goto(Win);
-}
-
 
 // Take to loose room when health is 0
 if (hp <= 0) {
