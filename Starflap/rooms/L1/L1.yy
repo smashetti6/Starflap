@@ -29,6 +29,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41636477","properties":[],"isDnd":false,"objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1301.0,"y":375.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D9F43B7","properties":[],"isDnd":false,"objectId":{"name":"obj_alienship","path":"objects/obj_alienship/obj_alienship.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.24399994,"scaleY":0.24399994,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":373.0,"y":561.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4084CC69","properties":[],"isDnd":false,"objectId":{"name":"obj_alienship","path":"objects/obj_alienship/obj_alienship.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.22599997,"scaleY":0.22599997,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":562.9998,"y":258.33282,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7954B66C","properties":[],"isDnd":false,"objectId":{"name":"obj_gamecontroller","path":"objects/obj_gamecontroller/obj_gamecontroller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":288.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Sprites","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_77489F4E","spriteId":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"headPosition":0.0,"rotation":-180.12094,"scaleX":0.59046495,"scaleY":0.6285595,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":985.0,"y":452.0,},
@@ -53,6 +54,7 @@
     {"name":"inst_41636477","path":"rooms/L1/L1.yy",},
     {"name":"inst_3D9F43B7","path":"rooms/L1/L1.yy",},
     {"name":"inst_4084CC69","path":"rooms/L1/L1.yy",},
+    {"name":"inst_7954B66C","path":"rooms/L1/L1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

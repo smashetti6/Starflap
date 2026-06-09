@@ -79,3 +79,9 @@ if (damage_cooldown > 0) {
 if (hp <= 0) {
     room_goto(Loose);
 }
+
+// If the player presses space, start the game
+if (keyboard_check_pressed(vk_space)) {
+    with (obj_gamecontroller) gameStarted = true;
+}
+
