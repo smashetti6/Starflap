@@ -1,11 +1,14 @@
-requiredAsteroids = 10;
-requiredAliens = 7;
+requiredAsteroids = 5;
+
+requiredAliens = 3;
 
 asteroidsDestroyed = 0;
+
 aliensDestroyed = 0;
 
-level = 1;
-
-gameStarted = false;
+gameStarted = false
 
 spawningEnabled = true;
+
+levelComplete = false;
+
