@@ -3,6 +3,5 @@ with (obj_gamecontroller) {
 
     if (asteroidsDestroyed >= requiredAsteroids &&
         aliensDestroyed >= requiredAliens) {
-        nextLevel();
     }
 }
