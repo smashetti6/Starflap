@@ -1,4 +1,6 @@
 
+c = noone;
+
 // AMMO
 
 refill_laser = 20;	//how much ammo to refill the laser gun

@@ -15,5 +15,5 @@ if (hp <= 0) {
 // Move only if the controller says the game started
 var c = instance_find(obj_gamecontroller, 0);
 if (c != noone && c.gameStarted) {
-    x -= 1;
+    x -= 2;
 }
