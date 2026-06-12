@@ -49,7 +49,9 @@ else {
 }
 
 // SHOOTING LASER (uses laser ammo)
-if (keyboard_check_pressed(vk_f1)) {
+if (keyboard_check_pressed(vk_f1))
+	audio_play_sound(sd_laser, 1, false);
+{
     if (laser_ammo > 0) {
         instance_create_layer(x + 20, y, "Instance", obj_laser);
         laser_ammo -= 1;
@@ -60,7 +62,8 @@ if (keyboard_check_pressed(vk_f1)) {
 
 // SHOOTING MISSILE (uses missile ammo)
 if (keyboard_check_pressed(vk_f2)) {
-    if (missile_ammo > 0) {
+    audio_play_sound(sd_missile, 1, false);
+	if (missile_ammo > 0) {
         instance_create_layer(x + 20, y, "Instance", obj_missile);
         missile_ammo -= 1;
     } else {
