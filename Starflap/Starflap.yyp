@@ -49,6 +49,7 @@
     {"id":{"name":"obj_startbutton","path":"objects/obj_startbutton/obj_startbutton.yy",},"order":9,},
     {"id":{"name":"spr_lvl2","path":"sprites/spr_lvl2/spr_lvl2.yy",},"order":19,},
     {"id":{"name":"L2","path":"rooms/L2/L2.yy",},"order":3,},
+    {"id":{"name":"sd_coin","path":"sounds/sd_coin/sd_coin.yy",},"order":7,},
     {"id":{"name":"L3","path":"rooms/L3/L3.yy",},"order":4,},
     {"id":{"name":"L1","path":"rooms/L1/L1.yy",},"order":0,},
   ],
