@@ -1,8 +1,8 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Loose",
-  "isDnd": false,
+  "name": "Lose",
+  "isDnd": true,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
@@ -25,10 +25,10 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"spr_backround","path":"sprites/spr_backround/spr_backround.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/Lose/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_66AFFAB7","path":"rooms/Loose/Loose.yy",},
+    {"name":"inst_66AFFAB7","path":"rooms/Lose/Lose.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sd_missile",
+  "name": "sd_lose",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.5,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sd_missile.mp3",
-  "duration": 1.56735,
+  "soundFile": "sd_lose.mp3",
+  "duration": 4.101219,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

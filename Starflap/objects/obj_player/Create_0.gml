@@ -14,9 +14,9 @@ fire_rate_missile = 30;		// slower shooting with missile but more powerful
 fire_timer = 0;				// the time it takes for the gun to shoot
 
 // AMMO VARIABLES
-laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
+laser_ammo = 10;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
-laser_max = 20;
+laser_max = 10;
 missile_max = 10
 
 // HEALTH VARIABLE
@@ -44,7 +44,7 @@ fire_rate_missile = 30;		// slower shooting with missile but more powerful
 fire_timer = 0;				// the time it takes for the gun to shoot
 
 // AMMO VARIABLES
-laser_ammo = 20;			// the amount of ammo for the laser gun before it runs out
+laser_ammo = 10;			// the amount of ammo for the laser gun before it runs out
 missile_ammo = 10;			// the amount of ammo for the missile before it runs out
 current_gun = 1;			// 1 = laser, 2 = missile
 
