@@ -49,7 +49,7 @@ else {
 }
 
 // SHOOTING LASER (uses laser ammo)
-if (keyboard_check_pressed(vk_f1)) {
+if (keyboard_check_pressed(vk_f3)) {
     audio_play_sound(sd_laser, 1, false);
 
     if (laser_ammo > 0) {
@@ -90,3 +90,7 @@ if (keyboard_check_pressed(vk_space)) {
     with (obj_gamecontroller) gameStarted = true;
 }
 }
+
+
+var cam = view_camera[0];
+camera_set_view_pos(cam, x - 1366/2, y - 768/2);
