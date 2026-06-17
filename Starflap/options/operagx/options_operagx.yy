@@ -2,8 +2,8 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.0",
   "name": "operagx",
-  "option_operagx_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.1",
+  "option_operagx_version": "1.0.0.1",
+  "option_operagx_next_version": "1.0.0.2",
   "option_operagx_game_name": "Starflap",
   "option_operagx_interpolate_pixels": true,
   "option_operagx_scale": 0,
@@ -14,5 +14,5 @@
   "option_operagx_team_id": "a4682295-0de3-4e1b-bcbf-f36334c5b9ed",
   "option_operagx_editUrl": "https://dev.gx.games/games/da64c445-ef4d-48a0-bcaa-d62408764d2d/details",
   "option_operagx_internalShareUrl": "https://gx.games/games/vtre51/starflap/tracks/5e34e2b3-833e-4271-a327-60a21d9a8345/",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gx.games/games/vtre51/starflap/",
 }
