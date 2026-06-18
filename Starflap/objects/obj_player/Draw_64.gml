@@ -1,26 +1,27 @@
-// Make sure HP stays in range
-hp = clamp(hp, 0, max_hp);
+// Healthbar
+// Draw GUI Event of obj_player
 
-// Healthbar position
-var bar_x1 = 20;
-var bar_y1 = 20;
-var bar_x2 = 220;
-var bar_y2 = 40;
+// 1. Calculate the percentage of health remaining (0 to 100)
+var hp_percent = (hp / max_hp) * 100;
 
-// Border
+// 2. Set screen coordinates for the bar (Top Left Corner)
+var x1 = 32;
+var y1 = 32;
+var x2 = 182; // 150 pixels wide
+var y2 = 48;  // 16 pixels tall
+
+// 3. Draw a thin black background/border so the bar stands out
 draw_set_color(c_black);
-draw_rectangle(bar_x1 - 2, bar_y1 - 2, bar_x2 + 2, bar_y2 + 2, false);
+draw_rectangle(x1 - 2, y1 - 2, x2 + 2, y2 + 2, false);
 
-// Health fill
-draw_set_color(c_green);
-draw_rectangle(
-    bar_x1,
-    bar_y1,
-    bar_x1 + (hp / max_hp) * (bar_x2 - bar_x1),
-    bar_y2,
-    false
+// 4. Draw the actual health bar
+// (0 means left-to-right fill. It changes from Green to Red automatically as you take damage)
+draw_healthbar(
+    x1, y1, x2, y2, 
+    hp_percent, 
+    c_gray, c_red, c_lime, 
+    0, false, false
 );
-
 // Ammo display
 var margin = 20;
 var right = display_get_gui_width() - margin;

@@ -1,6 +1,7 @@
-if (damage_cooldown <= 0) {
+// Collision Event with obj_alienship
+if (!is_invincible) {
     hp -= 10;
-    damage_cooldown = 30; // half a second at 60fps
+    is_invincible = true;
+    inv_timer = inv_duration;
+    
 }
-
-

@@ -1,5 +1,7 @@
-if (damage_cooldown <= 0) {
-    hp -= 5;
-    damage_cooldown = 30; // half a second at 60fps
+// Collision Event with obj_asteroid
+if (!is_invincible) {
+    hp -= 10;
+    is_invincible = true;
+    inv_timer = inv_duration;
+    
 }
-

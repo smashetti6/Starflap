@@ -73,17 +73,9 @@ if (keyboard_check_pressed(vk_f2)) {
     }
 }
 
-// damage cooldown
-if (damage_cooldown > 0) {
-    damage_cooldown -= 1;
-}
 
 
 
-// Take to loose room when health is 0
-if (hp <= 0) {
-    room_goto(Loose);
-}
 
 // If the player presses space, start the game
 if (keyboard_check_pressed(vk_space)) {
@@ -94,3 +86,19 @@ if (keyboard_check_pressed(vk_space)) {
 
 var cam = view_camera[0];
 camera_set_view_pos(cam, x - 1366/2, y - 768/2);
+
+// Add this to your existing Step Event
+
+// 1. Tick down the safety timer
+if (is_invincible) {
+    inv_timer -= 1;
+    if (inv_timer <= 0) {
+        is_invincible = false;
+    }
+}
+
+// 2. Check for Death
+if (hp <= 0) {
+    // Put your game over code here (e.g., room_restart(), or going to a game over room)
+    room_goto(Lose);
+}

@@ -40,7 +40,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DF0A62B","properties":[],"isDnd":false,"objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1159391,"scaleY":0.1159391,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4096.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_511C057F","properties":[],"isDnd":false,"objectId":{"name":"obj_alienship","path":"objects/obj_alienship/obj_alienship.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.173,"scaleY":0.173,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4896.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5CBDC1AB","properties":[],"isDnd":false,"objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1159391,"scaleY":0.1159391,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4576.0,"y":32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50479E74","properties":[],"isDnd":false,"objectId":{"name":"obj_gamecontroller","path":"objects/obj_gamecontroller/obj_gamecontroller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_577C125A","properties":[],"isDnd":false,"objectId":{"name":"obj_gamecontroller","path":"objects/obj_gamecontroller/obj_gamecontroller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"sprites","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7712AAC6","spriteId":{"name":"spr_lvl3","path":"sprites/spr_lvl3/spr_lvl3.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.5610238,"scaleY":0.5610238,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":-32.0,},
@@ -74,7 +74,7 @@
     {"name":"inst_2DF0A62B","path":"rooms/L3/L3.yy",},
     {"name":"inst_511C057F","path":"rooms/L3/L3.yy",},
     {"name":"inst_5CBDC1AB","path":"rooms/L3/L3.yy",},
-    {"name":"inst_50479E74","path":"rooms/L3/L3.yy",},
+    {"name":"inst_577C125A","path":"rooms/L3/L3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
